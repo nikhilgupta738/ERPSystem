@@ -14,6 +14,10 @@ mysql = MySQL(app)
 def home():
     return render_template('home.html')
 
+@app.route('/user_manage', methods=['POST', 'GET'])
+def user_manage():
+    return render_template('user_manage.html')
+
 @app.route('/hello', methods=['POST', 'GET'])
 def hello():
     return "Hello World!"
