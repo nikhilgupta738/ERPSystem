@@ -1,4 +1,4 @@
-# Flask Application - ERP System
+# Flask Application - USER MANAGEMENT System
 
 ## Project Overview
 
